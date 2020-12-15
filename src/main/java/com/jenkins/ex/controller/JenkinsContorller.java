@@ -16,5 +16,8 @@ public class JenkinsContorller {
 	public String hai() {
 		return "Hai everyone.............";
 	}
-
+	@GetMapping("/hai1")
+	public String hai1() {
+		return "Hai everyone1.............";
+	}
 }
