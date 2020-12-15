@@ -11,5 +11,10 @@ public class JenkinsContorller {
 	{
 		return "Hellow Millie.......";
 	}
+	
+	@GetMapping("/hai")
+	public String hai() {
+		return "Hai everyone.............";
+	}
 
 }
